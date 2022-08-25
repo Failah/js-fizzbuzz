@@ -18,6 +18,7 @@ for (let index = 1; index <= 100; index++) {
         console.log('FizzBuzz');
     } else {
         square.append(index.toFixed());
+        square.classList.add('bg-white');
         console.log(index);
     }
 
