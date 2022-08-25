@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.squares-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.squares-grid div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
