@@ -3,7 +3,8 @@ console.log('JS OK!')
 const grid = document.querySelector('.squares-grid');
 
 for (let index = 1; index <= 100; index++) {
-    const square = document.createElement('div');
+    let square = document.createElement('div');
+    
     if (index % 3 === 0 && index % 5 !== 0) {
         square.append('Fizz');
         square.classList.add('bg-red');
@@ -23,5 +24,4 @@ for (let index = 1; index <= 100; index++) {
     }
 
     grid.append(square);
-
 }

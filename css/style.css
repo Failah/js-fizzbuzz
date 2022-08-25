@@ -12,6 +12,8 @@
 .squares-container {
     padding: 30px 0px 0px 30px;
     background-color: #083b4c;
+    display: flex;
+    justify-content: center;
 }
 
 .squares-grid {
@@ -52,9 +54,9 @@
 /* effects */
 
 .squares-grid div:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
     animation: spin 0.3s linear;
-    background-color: orangered;
+    background-color: rgb(96, 149, 199);
     transition-delay: 0.3s;
 }
 
