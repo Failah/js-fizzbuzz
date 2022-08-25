@@ -43,9 +43,20 @@
     background-color: yellow;
 }
 
-/* hover effects */
+/* effects */
 
 .squares-grid div:hover {
-    transform: scale(1.15);
+    transform: scale(1.15) !important;
     background-color: orangered;
+    animation: spin 0.3s linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
